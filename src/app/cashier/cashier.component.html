@@ -17,8 +17,8 @@
 
 <p>////////////////////////////</p> <h1>Checkout</h1> <p>//////////////////////////////</p> 
 <p>Total Price: {{totalprice}}</p>
-<input (keyup.enter)="getChange(given)" id="checkoutTxt" [(ngModel)]="given" />
-<button id="checkoutBasket" (click)="getChange(given)" hidden ></button>
+<input (keyup.enter)="getChange()" id="checkoutTxt" [(ngModel)]="given" />
+<button id="checkoutBasket" (click)="getChange()" hidden ></button>
 <button id="checkoutBasket2" (click)="Checkout()" onClick= "this.style.visibility='hidden';" >Checkout</button>
 <p>Change: {{change}}</p>
 <br>
